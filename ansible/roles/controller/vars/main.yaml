@@ -1,0 +1,4 @@
+##https://cloud.google.com/kubernetes-engine/docs/release-notes
+
+kubernetes_version: "v1.19.4"
+kubernetes_download_path: "https://storage.googleapis.com/kubernetes-release/release/{{ kubernetes_version }}/bin/linux/amd64"

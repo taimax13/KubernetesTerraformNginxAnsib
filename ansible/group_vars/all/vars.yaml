@@ -1,0 +1,6 @@
+internal_cidr: "10.0.0.0/8" #+= subnets
+kubernetes_service_cluster_cidr: "10.32.0.0/24"
+kubernetes_pod_cluster_cidr: "10.200.0.0/16"
+kubernetes_cluster_dns: "10.32.0.10"
+
+kubernetes_version: "v1.18.9"  ##https://docs.aws.amazon.com/eks/latest/userguide/kubernetes-versions.html
